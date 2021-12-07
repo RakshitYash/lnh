@@ -14,22 +14,72 @@
 		font-size: 80px;
 		text-align: center;
 	}
-	a {
+	/* {
 		color: green;
 		font-size: 40px;
+	}*/
+	section article {
+		color: green;
+		text-align: center;
+		font-size: 36px;
 	}
 	article {
 		color: red;
 		font-size: 36px;
 	}
-	h2, section {
+	section {
 		text-align: center;
 		color: purple;
+		font-size: 40px;
 	}
 	.topper {
 		color: blue;
 		font-size: 20px;
 	}
+	header li {
+		list-style: none;
+	}
+	h2 li {
+		list-style: none;
+		text-align: center;
+	}
+	a {
+		text-align: center;
+	}
+	nav a:link, p a:link, nav a:visited, p a:visited {
+		text-decoration: none;
+		background-color: blue;
+		border: 1px solid blue;
+		color: white;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 1px;
+	}
+	nav a:hover, p a:hover, nav a:active, p a:active {
+		background-color: red;
+		color: purple;
+	}
+	h2 a:link, h2 a:visited{
+		text-decoration: none;
+		background-color: blue;
+		border: 1px solid blue;
+		color: white;
+		/*display: block;*/
+		/*width: 200px;*/
+		text-align: center;
+		margin-bottom: 1px;
+	}
+	h2 a:hover, h2 a:active {
+		background-color: red;
+		color: purple;
+	}
+	section li:nth-child(odd) {
+		background-color: yellow;
+		display: block;
+		text-align: center;
+	}
+	
 </style>
 <body>
 	<header id="top">One place for all your cloth needs.
@@ -49,7 +99,7 @@
 	</h1>
 		<h2>
 			<section id="fabrics">
-				<a>Fabrics:</a>
+				Fabrics:
 				<ul>
 				<li><article>Raw Silk <div><img src="https://5.imimg.com/data5/HS/NP/EY/SELLER-60864809/dupioni-silk-fabrics-500x500.jpg" height="500" width="500"></div></article></li>
 				<li><article>Kalamkari <div><img src="https://4.imimg.com/data4/EF/IG/MY-1724644/kalamkari-fabric-250x250.jpg" height="500" width="500"></div></article></li>
@@ -57,7 +107,7 @@
 				</ul>
 			</section> 
 			<section id="sarees">
-				<a>Sarees:</a>
+				Sarees:
 				<ul>
 				<li><article>Linen Sarees <div><img src="https://5.imimg.com/data5/LW/HE/MY-16382890/pure-linen-sarees-500x500.jpg" height="500" width="500"></div></article></li>
 				<li><article>Silk Sarees <div><img src="https://5.imimg.com/data5/MI/YP/MY-29673460/stylish-bhagalpuri-silk-saree-500x500.jpg" height="500" width="500"></div></article></li>
@@ -65,7 +115,7 @@
 				</ul>
 			</section> 
 			<section id="dupattas">
-				<a>Dupattas:</a>
+				Dupattas:
 				<ul>
 				<li><article>Bhagalpuri <div><img src="https://5.imimg.com/data5/MR/EQ/MY-42865178/bhagalpuri-dupatta-500x500.jpg" height="500" width="500"></div></article></li>
 				<li><article>Banarasi <div><img src="https://cdn.shopify.com/s/files/1/0285/2667/4059/products/8113a_grande.jpg?v=1598864404" height="500" width="500"></div></article></li>
